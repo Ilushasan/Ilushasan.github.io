@@ -58,7 +58,7 @@ body {
 
 .logo {
 	display: flex;
-	align-items: : center;
+	align-items:  center;
 	text-decoration: none;
 	color: #ffff;
 	width: 185px;
@@ -259,7 +259,7 @@ label,
 
 .search:focus{
 	width: 320px;
-	transition: width 2s ease-out;
+	transition: width 0.3s ease-out;
   	background-position: right;
     opacity: 1;
     left: -285px;
@@ -296,7 +296,7 @@ label,
   transform: rotate(226deg);
   position: absolute;
   top: 90px;
-  left: ;
+  left:0 ;
 }
 
 .carusel-btn-left:hover:after {
@@ -540,7 +540,7 @@ label,
 
 .idea-gallery-center {
 	position: absolute;
-	top: ;
+	top:0 ;
 	left: 230px;
 	z-index: 2;
 }
@@ -1452,10 +1452,10 @@ label,
 }
 
 
-@media screen and (width: 480px) {
+@media (max-width: 480px) {
 	body,
 	html {
-		width: 480px;
+		width: 100%;
 		margin: 0 auto;
 	}
 	
@@ -1593,6 +1593,7 @@ label,
     }
 
     .mobile-site {
+		width: 100%;
     	display: block;
     }
 
@@ -1679,7 +1680,7 @@ label,
 	}
 
 	.footer-element {
-		max-width: 100%
+		max-width: 100%;
 		justify-content:center;
 		margin: 0 0 30px 0;
 		text-align: center;
@@ -1709,9 +1710,9 @@ label,
     	width: 100%;
     }
 
-    .footer-element .brand {
+	.footer-element .brand {
     	width: 100%;
-    }
+	}
 
     .links-block{
         padding: 30px 20px 30px 20px;
